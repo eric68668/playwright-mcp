@@ -233,6 +233,12 @@ ${code.join('\n')}
 \`\`\`
 `);
 
+    result.push(`- Screenshot:
+\`\`\`json
+${JSON.stringify(screenshotResult, null, 2)}
+\`\`\`
+`);
+
     if (this.modalStates().length) {
       result.push(...this.modalStatesMarkdown());
       return {
