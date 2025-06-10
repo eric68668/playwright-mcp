@@ -1,7 +1,7 @@
 {
-  "name": "@playwright/mcp",
+  "name": "@alipay/playwright-mcp-aworld",
   "version": "0.0.28",
-  "description": "Playwright Tools for MCP",
+  "description": "Playwright Tools for AWorld MCP",
   "type": "module",
   "repository": {
     "type": "git",
