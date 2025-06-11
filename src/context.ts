@@ -232,8 +232,8 @@ ${code.join('\n')}
 \`\`\`
 `);
 
-    result.push(`- Screenshot:
-${screenshotResult.map(item => `![screenshot](${item.ossPath})`).join('\n')}
+    result.push(`- Screenshot:\n
+${screenshotResult.map(item => `![screenshot](${item.ossPath})`).join('\n')}\n
 `);
 
     if (this.modalStates().length) {
