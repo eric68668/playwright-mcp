@@ -178,7 +178,7 @@ export class Context {
       };
 
       await this._currentTab.page.screenshot(screenshotOptions);
-      const ossPath = await putObject(fileName, 'public_area/playwright-mcp/screenshots');
+      const ossPath = await putObject(fileName, 'playwright-mcp/screenshots');
 
       return [{
         localPath: fileName,

@@ -1,11 +1,11 @@
 {
-  "name": "@alipay/playwright-mcp-aworld",
+  "name": "playwright-mcp-aworld",
   "version": "0.0.28",
   "description": "Playwright Tools for AWorld MCP",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright-mcp.git"
+    "url": "git+https://github.com/eric68668/playwright-mcp.git"
   },
   "homepage": "https://playwright.dev",
   "engines": {

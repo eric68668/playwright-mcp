@@ -26,7 +26,7 @@ const client = new OSS({
 
 const headers = {
   'x-oss-storage-class': 'Standard',
-  'x-oss-object-acl': 'private',
+  'x-oss-object-acl': 'public-read',
   'x-oss-forbid-overwrite': 'true',
 };
 
