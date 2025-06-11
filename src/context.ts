@@ -168,13 +168,12 @@ export class Context {
       return [];
 
     try {
-      const fileType = 'jpeg';
+      const fileType = 'png';
       const fileName = await outputFile(this.config, `${toolName}-${randomUUID()}.${fileType}`);
       const screenshotOptions = {
-        type: fileType as 'jpeg',
-        quality: 50,
-        scale: 'css' as 'css',
-        path: fileName
+        type: fileType as 'png',
+        path: fileName,
+        fullPage: true
       };
 
       await this._currentTab.page.screenshot(screenshotOptions);
