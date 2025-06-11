@@ -234,9 +234,7 @@ ${code.join('\n')}
 `);
 
     result.push(`- Screenshot:
-\`\`\`json
-${JSON.stringify(screenshotResult, null, 2)}
-\`\`\`
+${screenshotResult.map(item => `![screenshot](${item.ossPath})`).join('\n')}
 `);
 
     if (this.modalStates().length) {
